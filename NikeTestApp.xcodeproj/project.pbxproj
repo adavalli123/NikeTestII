@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB9C6078210BDE1D005E77A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C6077210BDE1D005E77A6 /* AppDelegate.swift */; };
 		CB9C607A210BDE1D005E77A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C6079210BDE1D005E77A6 /* ViewController.swift */; };
 		CB9C607D210BDE1D005E77A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9C607B210BDE1D005E77A6 /* Main.storyboard */; };
 		CB9C607F210BDE1D005E77A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9C607E210BDE1D005E77A6 /* Assets.xcassets */; };
 		CB9C6082210BDE1D005E77A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9C6080210BDE1D005E77A6 /* LaunchScreen.storyboard */; };
+		CB9C608A210BDE72005E77A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C6089210BDE72005E77A6 /* Constants.swift */; };
+		CB9C608C210BE0A5005E77A6 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C608B210BE0A5005E77A6 /* NetworkRequest.swift */; };
+		CB9C608E210BE8ED005E77A6 /* NetworkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C608D210BE8ED005E77A6 /* NetworkParser.swift */; };
+		CB9C6090210BF60D005E77A6 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C608F210BF60D005E77A6 /* Feed.swift */; };
+		CB9C6093210C16EA005E77A6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C6091210C16EA005E77A6 /* TableViewCell.swift */; };
+		CB9C6094210C16EA005E77A6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9C6092210C16EA005E77A6 /* TableViewCell.xib */; };
+		CB9C6096210CA4BC005E77A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C6095210CA4BC005E77A6 /* DetailViewController.swift */; };
+		CB9C609A210CA5AF005E77A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C6099210CA5AF005E77A6 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB9C6074210BDE1D005E77A6 /* NikeTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB9C6077210BDE1D005E77A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB9C6079210BDE1D005E77A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB9C607C210BDE1D005E77A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB9C607E210BDE1D005E77A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9C6081210BDE1D005E77A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9C6083210BDE1D005E77A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9C6089210BDE72005E77A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB9C608B210BE0A5005E77A6 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		CB9C608D210BE8ED005E77A6 /* NetworkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParser.swift; sourceTree = "<group>"; };
+		CB9C608F210BF60D005E77A6 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		CB9C6091210C16EA005E77A6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CB9C6092210C16EA005E77A6 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CB9C6095210CA4BC005E77A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB9C6099210CA5AF005E77A6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,19 @@
 		CB9C6076210BDE1D005E77A6 /* NikeTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				CB9C6077210BDE1D005E77A6 /* AppDelegate.swift */,
+				CB9C6099210CA5AF005E77A6 /* AppDelegate.swift */,
 				CB9C6079210BDE1D005E77A6 /* ViewController.swift */,
 				CB9C607B210BDE1D005E77A6 /* Main.storyboard */,
 				CB9C607E210BDE1D005E77A6 /* Assets.xcassets */,
 				CB9C6080210BDE1D005E77A6 /* LaunchScreen.storyboard */,
 				CB9C6083210BDE1D005E77A6 /* Info.plist */,
+				CB9C6089210BDE72005E77A6 /* Constants.swift */,
+				CB9C608B210BE0A5005E77A6 /* NetworkRequest.swift */,
+				CB9C608D210BE8ED005E77A6 /* NetworkParser.swift */,
+				CB9C608F210BF60D005E77A6 /* Feed.swift */,
+				CB9C6091210C16EA005E77A6 /* TableViewCell.swift */,
+				CB9C6092210C16EA005E77A6 /* TableViewCell.xib */,
+				CB9C6095210CA4BC005E77A6 /* DetailViewController.swift */,
 			);
 			path = NikeTestApp;
 			sourceTree = "<group>";
@@ -124,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9C6082210BDE1D005E77A6 /* LaunchScreen.storyboard in Resources */,
+				CB9C6094210C16EA005E77A6 /* TableViewCell.xib in Resources */,
 				CB9C607F210BDE1D005E77A6 /* Assets.xcassets in Resources */,
 				CB9C607D210BDE1D005E77A6 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9C608E210BE8ED005E77A6 /* NetworkParser.swift in Sources */,
+				CB9C6090210BF60D005E77A6 /* Feed.swift in Sources */,
+				CB9C609A210CA5AF005E77A6 /* AppDelegate.swift in Sources */,
 				CB9C607A210BDE1D005E77A6 /* ViewController.swift in Sources */,
-				CB9C6078210BDE1D005E77A6 /* AppDelegate.swift in Sources */,
+				CB9C608C210BE0A5005E77A6 /* NetworkRequest.swift in Sources */,
+				CB9C6093210C16EA005E77A6 /* TableViewCell.swift in Sources */,
+				CB9C608A210BDE72005E77A6 /* Constants.swift in Sources */,
+				CB9C6096210CA4BC005E77A6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K69MGG379R;
 				INFOPLIST_FILE = NikeTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.NikeTestApp;
@@ -289,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K69MGG379R;
 				INFOPLIST_FILE = NikeTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.NikeTestApp;
